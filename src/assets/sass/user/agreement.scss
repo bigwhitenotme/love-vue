@@ -1,0 +1,29 @@
+#Agreement{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    header{
+        border-bottom: 1px solid #ddd;
+    }
+    >.content{
+        margin-top: 48px;
+        padding: 15px;
+        >.title{
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            line-height: 40px;
+        }
+        >.htitle{
+            font-size: 14px;
+            color: #333;
+            line-height: 28px;
+            font-weight: bold;
+        }
+    }
+}

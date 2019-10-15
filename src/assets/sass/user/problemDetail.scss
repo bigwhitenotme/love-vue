@@ -1,0 +1,23 @@
+#problemDetail{
+    width:100vw;  
+    height: 100vh;
+    
+    >header{
+        line-height: 47px;
+        border-bottom:1px solid #E1E2E6;
+    }
+    >div{
+        padding:31px 12px 0 12px;
+        margin-top:48px;
+        >p:first-child{
+            color:#242833;
+            font-size:17px;
+            font-weight: 500;
+            margin-bottom:26px;
+        }
+        >p:last-child{
+            color:#5E6066;
+            font-size:14px;
+        }
+    }
+}

@@ -1,0 +1,142 @@
+#changePswd,#forgetPswd,#certification,#newAddress,#editAddress{
+    width:100vw;
+    height:100vh;
+    background-color:#f6f6f6;
+    >.input-content{
+        padding-top:58px;
+        >.input-list{
+            position: relative;
+            width:100%;
+            height:50px;
+           overflow: hidden;
+            background-color: #ffffff;
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:12px;
+                bottom:0;
+                width:100%;
+                height:1px;
+                background:rgba(225,226,230,1);
+            }
+            >span{
+                font-size:14px;
+                float: left;
+                margin:14px 7px 0 6px;
+            }
+            >img{
+                display: block;
+                width:25px;
+                height:25px;
+                float: left;
+                margin:12px 7px 0 6px;
+            }
+            >input{
+                font-size:14px;
+                width:312px;
+                height:49px;
+                line-height: 1;
+                float: left;
+                &::placeholder{
+                    color:#8D9099;
+                padding-top:5px;
+                }
+            }
+            .close{
+                display: block;
+                width:18px;
+                height:18px;
+                position: absolute;
+                right:0;
+                top:5px;
+            }
+        }
+        >.list-code{
+            position: relative;
+            >input{
+                width:200px;
+            }
+            >.forget-code{
+                right:0;
+                position: absolute;
+                text-align: center;
+                font-size:14px;
+                color:#242833;
+                width:88px;
+                height:30px;
+                line-height: 30px;
+                background-color:#F0F1F5;
+                border-radius:5px;
+                margin-top:10px
+            }
+            >.active{
+                background-color:#FF5656;
+                color:#ffffff;
+            }
+            .close{
+                display: block;
+                width:18px;
+                height:18px;
+                position: absolute;
+                right:100px;
+                top:5px;
+            }
+        }
+        >.list-top{
+            margin-top: 10px;
+        }
+        >.list-last{
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:12px;
+                bottom:0;
+                width:100%;
+                height:1px;
+                background:#ffffff;
+            }
+        }
+        >.change-btn{
+            color:#ffffff;
+            font-size:15px;
+            text-align: center;
+            width:250px;
+            height:40px;
+            line-height: 40px;
+            background-color:#D8D8D8;
+            border-radius:5px;
+            margin:90px auto;
+            &.active{
+                background-color:#FF5656;
+            }
+        }
+        //实名认证
+        >p{
+            font-size:13px;
+            color:#8D9099;
+            margin-top:16px;
+            padding-left:11px;
+        }
+    }
+}
+#certification{
+    >.input-content{
+        >.input-list{
+            >input{
+                width:290px;
+            }
+        }
+        >.change-btn{
+            margin-top:103px;
+        }
+    }
+   
+}
+input::placeholder{
+    line-height: 49px;
+    color: red;
+}

@@ -1,0 +1,255 @@
+#bill{
+    width:100vw;
+    position: absolute;
+    top: 0;
+    bottom : 0;
+    left : 0;
+    right: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background:rgba(246,246,246,1);
+    .page-part{
+        padding-top:48px;
+    }
+    .mint-tab-item-label{
+        font-size:14px;
+    }
+    .mint-navbar .mint-tab-item{
+        color:#8D9099;
+    }
+    .mint-navbar .mint-tab-item.is-selected{
+        color: #242833;
+        border-bottom:2px solid #FF5656;
+        margin:0;
+    }
+    .mint-cell-wrapper{
+        padding:0;
+        background:rgba(246,246,246,1);
+        .mint-cell-value{
+            width:100%;
+        }
+        ul{
+            width:100%;
+            height:auto;
+         
+            // 暂无订单记录
+            .bill-none{
+                width:100%;
+                padding-top:103px;
+                >img{
+                    display: block;
+                    width:167px;
+                    height:178px;
+                    margin:0 auto;
+                }
+                >p{
+                    text-align: center;
+                    font-size:17px;
+                    color:#5E6066;
+                    margin-top:35px;
+                }
+            }
+           
+            >.tishis{
+                padding:16px 0;
+                color:#8D9099;
+                font-size:14px;
+                text-align: center;
+            }
+            >li{
+                padding: 17px 12px 0 12px;
+                width:100%;
+                background:rgba(255,255,255,1);
+                margin-top:10px;
+                >.number{
+                    overflow: hidden;
+                    >span:first-child{
+                        font-size:14px;
+                        color:#8D9099;
+                    }
+                    >span:last-child{
+                        font-size:12px;
+                    }
+                    >.gray{
+                        color:#5E6066;
+                    }
+                    >.green{
+                        color:#80C269;
+                    }
+                    >.red{
+                        color:#FF5656;
+                    }
+                }
+                // 订单列表
+                >.bill{
+                    width:100%;
+                    margin-top:15px;
+                    padding-bottom:16px;
+                    overflow: hidden;
+                    >img{
+                        width:75px;
+                        height:75px;
+                        margin:6px 11px 0 0;
+                        border:1px solid #dddddd;
+                        
+                    }
+                    >.content{
+                        width:74%;
+                        >.text{
+                            line-height: 23px;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2; //显示文字的行数
+                            overflow: hidden;
+                            word-break: break-all;
+                        }
+                        >.Specifications{
+                          
+                            >span{
+                                color:#8D9099;
+                                font-size:12px;
+                            }
+                            >span:first-child{
+                                margin-right:12px;
+                            }
+                            
+                        }
+                        >.money{
+                            overflow: hidden;
+                            margin-top:10px;
+                            >span{
+                                color:#8D9099;
+                                font-size:12px;
+                            }
+                        }
+                    }
+                }
+                .bill-btn{
+                    border-top:1px solid #E1E2E6;
+                    width:100%;
+                    overflow: hidden;
+                    height:50px;
+                    >.money{
+                        line-height: 50px;
+                        >span{
+                            font-size:14px;
+                        }
+                        >span:first-child{
+                            color:#5E6066;
+                        }
+                        >span:last-child{
+                            color:#FF5656;
+                        }
+                    }
+                    >.btn{
+                        overflow: hidden;
+                        margin-top:10px;
+                        >div{
+                            float: left;
+                            text-align: center;
+                            width:70px;
+                            height:30px;
+                            line-height: 30px;
+                           font-size:14px;
+                            border-radius:5px;
+                        }
+                        >.gray-btn{
+                            margin-right:10px;
+                            color:#5E6066;
+                            background:rgba(240,241,245,1);
+                        }
+                        >.red-btn{
+                            color:#FFFFFF;
+                            background:rgba(255,86,86,1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 确认付款弹框
+    .mint-popup-bottom{
+        width:100%;
+    }
+    .share-lists{
+        padding:0;
+        height:auto;
+        width:100%;
+        background:rgba(255,255,255,1);
+        >.confrim{
+            text-align: center;
+            width:100%;
+            height: 50px;
+            line-height: 50px;
+            font-size:15px;
+            color:#242833;
+            border-bottom:1px solid #E2E4E6;
+        }
+        >div{
+           width:100%;
+            >p{
+                width:100%;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                color:#FF5656;
+                font-size:17px;
+            }
+            >ul{
+                width:100%;
+                height: auto;
+                li{
+                    position: relative;
+                    padding:0 12px;
+                    width:100%;
+                    height: 50px;
+                    overflow: hidden;
+                    &::after{
+                        display: block;
+                        content: '';
+                        position: absolute;
+                        bottom:0;
+                        left:12px;
+                        right:12px;
+                        width:95%;
+                        height:1px;
+                        background-color:#E2E4E6;
+                    }
+                    >.pay{
+                        overflow: hidden;
+                        >img{
+                            width:32px;
+                            height:32px;
+                            margin:9px 14px 9px 0;
+                        }
+                        >span{
+                            color:#242833;
+                            font-size:14px;
+                            line-height: 50px;
+                        }
+                    }
+                    >img{
+                        width:20px;
+                        height:20px;
+                        margin-top:15px;
+                    }
+                }
+            }
+        }
+        .paymentBtn{
+            width:100%;
+            height:157px;
+            padding:81px 0 36px 0;
+            >.btn{
+                font-size:15px;
+                color:#FFFFFF;
+                text-align: center;
+                width:250px;
+                height: 40px;
+                line-height: 40px;
+                margin:0 auto;
+                background:#FF5656;
+            }
+        }
+    }
+}

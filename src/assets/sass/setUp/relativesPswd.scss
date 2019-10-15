@@ -1,0 +1,75 @@
+#relativesPswd{
+    >.relatives-content{
+        width:100vw;
+        height:100vh;
+        background-color: #f6f6f6;
+        >.relatives-input{
+            padding-top:101px;
+            width:100%;
+            height:508px;
+            background-color:#ffffff;
+            >.pswd-list{
+                display: flex;
+                justify-content: center;
+                >input{
+                    font-size:20px;
+                    font-weight:500;
+                    color:#242833;
+                    text-align: center;
+                    width:49px;
+                    height:49px;
+                    line-height: 1;
+                    background-color: #F6F6F6;
+                    margin-right:18px;
+                }
+                >input:last-child{
+                    margin:0;
+                }
+            }
+            >p{
+                text-align:center; 
+                color:#8D9099;
+                font-size:14px;
+                margin-top: 41px;
+            }
+            >.pswd-btn{
+                color:#ffffff;
+                font-size:15px;
+                text-align: center;
+                width:250px;
+                height:40px;
+                line-height: 40px;
+                background-color:#D8D8D8;
+                border-radius:5px;
+                margin:71px auto;
+                &.active{
+                    background-color:#FF5656;
+                }
+            }
+           
+        }
+    }
+    .selfpwddiv {
+        text-align: center;
+        p {
+          font-size: 16px;
+          color: black;
+          margin-bottom: 20px;
+        }
+        .am_payPwd {
+            display: flex;
+            justify-content: center;
+          .shortInput {
+            font-size:20px;
+            font-weight:500;
+            color:#242833;
+            text-align: center;
+            width:49px;
+            height:49px;
+            line-height: 1;
+            background-color: #F6F6F6;
+            margin-right:18px;
+          }
+        }
+      }
+}

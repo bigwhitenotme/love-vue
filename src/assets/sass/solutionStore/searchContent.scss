@@ -1,0 +1,175 @@
+#searchContent{
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 100vh;
+    header{
+       
+        >img{
+            display: block;
+            width:16px;
+            height:16px;
+            position: absolute;
+            right:15.5px;
+            top:16px;
+        }
+    }
+    >.search{
+        overflow: hidden;
+        padding:10px 12px 9px 15px;
+        div{
+            padding-left:10px;
+            color:#8D9099;
+            font-size:13px;
+            width:300px;
+            height:35px;
+            line-height: 35px;
+            background:rgba(255,255,255,1);
+            border-radius:5px;
+            overflow: hidden;
+            >img{
+                width:15px;
+                height:15px;
+                margin-right:6px;
+            }
+        }
+        >span{
+            color:#5E6066;
+            font-size:15px;
+            display: inline-block;
+            line-height: 35px;
+        }
+       
+    }
+
+        // 咨询列表
+        .consultation{
+            width:100%;
+            background-color: #ffffff;
+            >div{
+                color:#8D9099;
+                font-size:12px;
+                padding:15px 14px;
+                height:50px;
+                width:100%;
+                border-bottom:1px solid rgba(225,226,230,1);
+            }
+            ul{
+                li{
+                    padding:15px 14px;
+                    border-bottom:1px solid rgba(225,226,230,1);
+                    .consultation-one{
+                      overflow: hidden;
+                      >.text{
+                        font-weight:500;
+                        color:#242833;
+                        font-size:16px;
+                        width:223px;
+                        overflow: hidden;
+                        -webkit-line-clamp: 3; 
+                        -webkit-box-orient: vertical;
+                        display: -webkit-box;
+                        float: left;
+                      }
+                      >img{
+                        width:113px;
+                        height:75px;
+                        border-radius:5px;
+                        float: right;
+                      }
+                    }
+                    .consultation-reply{
+                        margin-top:15px;
+                        overflow: hidden;
+                        >span{
+                            color:#8D9099;
+                            font-size:12px;
+                        }
+                        >span:nth-child(2){
+                            margin:0 14px;
+                        }
+                        .title{
+                            color:#5D91F6;
+                        }
+                    }
+                    .consultation-two{
+                        overflow: hidden;
+                        >.text{
+                          font-weight:500;
+                          color:#242833;
+                          font-size:16px;
+                         width:100%;
+                         overflow: hidden;
+                         -webkit-line-clamp: 1; 
+                         -webkit-box-orient: vertical;
+                         display: -webkit-box;
+                         float: left;
+                         margin-bottom:14px;
+                        }
+                        >.pic{
+                            width:100%;
+                            display: flex;
+                            justify-content: space-around;
+                            overflow: hidden;
+                            >img{
+                                width:113px;
+                                height:75px;
+                                border-radius:5px;
+                                float: right;
+                              }
+                        }
+                       
+                      }
+                      .consultation-three{
+                        overflow: hidden;
+                        >.text{
+                          font-weight:500;
+                          color:#242833;
+                          font-size:16px;
+                         width:100%;
+                         overflow: hidden;
+                         -webkit-line-clamp: 2; 
+                         -webkit-box-orient: vertical;
+                         display: -webkit-box;
+                         float: left;
+                       
+                        }
+                        >.pic{
+                            width:100%;
+                            display: flex;
+                            justify-content: space-around;
+                            overflow: hidden;
+                        }
+                       
+                      }
+                      .consultation-four{
+                        overflow: hidden;
+                        >.text{
+                          font-weight:500;
+                          color:#242833;
+                          font-size:16px;
+                         width:100%;
+                         overflow: hidden;
+                         -webkit-line-clamp: 2; 
+                         -webkit-box-orient: vertical;
+                         display: -webkit-box;
+                         float: left;
+                         margin-bottom:14px;
+                       
+                        }
+                        >.pic{
+                            width:100%;
+                            display: flex;
+                            justify-content: space-around;
+                            overflow: hidden;
+                            >img{
+                                width:100%;
+                                height:200px;
+                                border-radius:5px;
+                                float: right;
+                              }
+                        }
+                      }
+                }
+            }
+        }
+    }

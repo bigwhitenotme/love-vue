@@ -1,0 +1,114 @@
+#about{
+    position: absolute;
+    top: 0;
+    bottom : 0;
+    left : 0;
+    right: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top:85px;
+    >.about-pic{
+        >img{
+            display: block;
+            width:65px;
+            height:65px;
+            margin:0 auto;
+        }
+        >p{
+           text-align: center;
+           color:#242833;
+        }
+        >.about-name{
+            font-weight:500;
+            font-size:17px;
+            margin:16px 0 10px 0;
+        }
+        >.about-number{
+            font-size:12px;
+        }
+    }
+    >.about-text{
+        margin:40px 0 50px;
+        color: #5E6066;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    >.about-btn{    
+        div{
+            color:#FF5656;
+            font-size:14px;
+            text-align: center;
+            line-height: 38px;
+            width:126px;
+            height:40px;
+            border:1px solid rgba(255,86,86,1);
+            border-radius:5px;
+            margin: 0 auto;
+        }
+        p{
+            padding-top:30px;
+        }
+    }
+    .copyright{
+        font-size:12px;
+        color:#cccccc;
+        text-align: center;
+    }
+    .mint-popup{
+        border-radius:15px;
+    }
+    .frame{
+        width:290px;
+        height:230px;
+        background:rgba(255,255,255,1);
+        border-radius:15px;
+        margin: 0 auto;
+        padding-top:80px;
+        >.frame-pic{
+            position: absolute;
+            width:340px;
+            height:127px;
+            top:-40px;
+            left:-25px;
+            img{
+                width:100%;
+            }
+
+        }
+        .frame-text{
+            color:#8D9099;
+            font-size:15px;
+           line-height: 28px;
+            text-align: center;
+            margin:0 auto;
+           
+        }
+        .frame-btn{
+            color:#8D9099;
+            font-size:17px;
+            width:100%;
+            height:60px;
+            line-height: 60px;
+            position: absolute;
+            bottom:0;
+            left:0;
+            display: flex;
+            justify-content: space-around;
+            border-top:1px solid #E1E2E6;
+            >div{
+                text-align: center;
+                width:50%;
+            }
+            >.line{
+                width:1px;
+                height:60px;
+                background-color: #E1E2E6;
+            }
+            .update{
+                color:#FF5656;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,110 @@
+#setUp,#managmentPswd,#loginPswd{
+    width:100vw;
+    height:100vh;
+    background-color: #f6f6f6;
+    >.setUp-list{
+      padding-top:48px;
+      background-color: #f6f6f6;
+      >li{
+        position: relative;
+        padding:0 12px 0 12px;
+        width:100%;
+        height:50px;
+        background-color:#ffffff;
+        overflow: hidden;
+        &:after{
+            content: '';
+            display: block;
+            clear: both;
+            position: absolute;
+            left:12px;
+            bottom:0;
+            width:100%;
+            height:1px;
+            background:rgba(225,226,230,1);
+        }
+              
+        >p{
+            color:#242833;
+            font-size:14px;
+            line-height: 50px;
+        }
+        >div{
+            overflow: hidden;
+            >span{
+                display: inline-block;
+                margin-right:10px;
+                line-height: 50px;
+                font-size:17px;
+                color:#8D9099;
+            }
+            >.list-right{
+                margin-right:22px;
+            }
+            >.list-arrow{
+                display:block;
+               width:12px;
+               height:12px;
+              margin-top:21px;
+            }
+        }
+      }
+      >.list-top{
+        margin-top: 10px;
+    }
+      >.list-last{
+        &:after{
+            content: '';
+            display: block;
+            clear: both;
+            position: absolute;
+            left:12px;
+            bottom:0;
+            width:100%;
+            height:1px;
+            background:#ffffff;
+        }
+    }
+    }
+    .log-content{
+        width:100vw;
+        height:155px;
+        background-color: #ffffff;
+        >p{
+            text-align: center;
+            width:100%;
+            height: 50px;
+        }
+        >.log-text{
+            line-height: 49px;
+            color:#8D9099;
+            font-size:12px;
+            border:1px solid rgba(225,226,230,1);
+        }
+        >.confrim-logOut{
+        color:#FF5656;
+        font-size:15px;
+        line-height: 50px;
+        }
+        >.cancle-logOut{
+            color:#242833;
+            font-size:15px;
+            height:60px;
+            line-height: 50px;
+            border-top:10px solid #f6f6f6;
+        }
+    }
+}
+#loginPswd{
+    >.setUp-list{
+        >li{
+            >.list-arrow{
+                display:block;
+               width:12px;
+               height:12px;
+              margin-top:21px;
+            }
+        }
+    }
+
+}

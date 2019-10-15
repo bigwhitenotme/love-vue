@@ -1,0 +1,47 @@
+#sureDelete{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    >.delete-box{
+        width: 290px;
+        height: 150px;
+        position: absolute;
+        top: calc((100vh - 150px)/2);
+        left: calc((100vw - 290px)/2);
+        background-color: #fff;
+        border-radius: 15px;
+        >p{
+            height: 90px;
+            line-height: 90px;
+            font-size: 20px;
+            color: #242833;
+            text-align: center;
+        }
+        >.btn-box{
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            border-top: 1px solid #E1E2E6;
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            >p{
+                width: 50%;
+                float: left;
+                font-size: 17px;
+                color: #242833;
+            }
+            >.cancel{
+                border-right: 1px solid #E1E2E6;
+                color: #8D9099;
+            }
+        }
+    }
+}

@@ -1,0 +1,386 @@
+#bodyData{
+    background-color:#f6f6f6;
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom : 0;
+    left : 0;
+    right: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    >.user-list{
+        width:100%;
+        overflow: hidden;
+       padding-top:48px;
+        >li{
+            position: relative;
+            padding:0 12px 0 12px;
+            width:100%;
+            height:50px;
+            background-color:#ffffff;
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:12px;
+                bottom:0;
+                width:100%;
+                height:1px;
+                background:rgba(225,226,230,1);
+            }
+           
+            >p{
+                color:#242833;
+                font-size:14px;
+                line-height: 50px;
+            }
+            >div{
+                overflow: hidden;
+                >span{
+                    display: inline-block;
+                    margin-right:10px;
+                    line-height: 50px;
+                    font-size:17px;
+                    color:#8D9099;
+                }
+                >.colorblack{
+                    color:#5E6066;
+                }
+                >.list-right{
+                    margin-right:22px;
+                }
+                >.list-arrow{
+                    display:block;
+                   width:12px;
+                   height:12px;
+                  margin-top:21px;
+                }
+            }
+           
+        }
+        >.blood-pressure{
+            height:75px;
+            padding: 7.5px 12px;
+            >div{
+                >div{
+                    margin-right:10px;
+                    >span{
+                        color:#8D9099;
+                        font-size:17px;
+                        display:block;
+                        line-height: 30px;
+                    }
+                   
+                    
+                }
+            }
+            >p{
+                
+                line-height: 60px;
+            }
+        }
+        >.list-top{
+            margin-top: 10px;
+        }
+        >.list-line{
+            display: block;
+            height:60px;
+            line-height: 50px;
+            border-bottom:10px solid #f6f6f6;
+            
+        }
+        >.list-last{
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:12px;
+                bottom:0;
+                width:100%;
+                height:1px;
+                background:#ffffff;;
+            }
+        }
+    }
+    //血糖样式
+    #sureData{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+            >.data-box{
+            width: 290px;
+            height: 220px;
+            position: absolute;
+            top: calc((100vh - 220px)/2);
+            left: calc((100vw - 290px)/2);
+            background-color: #fff;
+            border-radius: 15px;
+            >p{
+                font-weight:bold;
+                height: 49px;
+                line-height: 48px;
+                font-size: 17px;
+                color: #242833;
+                text-align: center;
+                border-bottom: 1px solid #E1E2E6;
+            }
+            >.blood-sugar{
+                width:290px;
+               display: flex;
+                justify-content: center;
+                height:111px;
+                
+                >input{
+                    text-align: center;
+                    line-height:1;
+                    color:#242833;
+                    font-size:20px;
+                    width:100px;
+                    height:50px;
+                    margin-top:22px;
+                    border-bottom: 1px solid #E1E2E6;
+                }
+                >span{
+                    display: inline-block;
+                    margin-top:40px;
+                    color:#242833;
+                    font-size:14px;
+                }
+            }
+                >.btn-box{
+                height: 60px;
+                line-height: 59px;
+                text-align: center;
+                border-top: 1px solid #E1E2E6;
+                >div{
+                    width: 50%;
+                    float: left;
+                    font-size:17px;
+                    color: #242833;
+                }
+                >.bloodSugar-cancel{
+                    border-right: 1px solid #E1E2E6;
+                    color:#8D9099;
+                    }
+                }
+            }
+    }
+    // 身高样式
+    #sureHeight{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+            >.height-box{
+            width: 290px;
+            height: 220px;
+            position: absolute;
+            top: calc((100vh - 220px)/2);
+            left: calc((100vw - 290px)/2);
+            background-color: #fff;
+            border-radius: 15px;
+            >p{
+                font-weight:bold;
+                height: 49px;
+                line-height: 48px;
+                font-size: 17px;
+                color: #242833;
+                text-align: center;
+                border-bottom: 1px solid #E1E2E6;
+            }
+            >.height-data{
+                width:290px;
+               display: flex;
+                justify-content: center;
+                height:111px;
+                
+                >input{
+                    text-align: center;
+                    line-height:1;
+                    color:#242833;
+                    font-size:20px;
+                    width:100px;
+                    height:50px;
+                    margin-top:22px;
+                    border-bottom: 1px solid #E1E2E6;
+                }
+                >span{
+                    color:#242833;
+                    font-size:14px;
+                    display: inline-block;
+                    margin-top:40px;
+                }
+            }
+                >.btn-box{
+                height: 60px;
+                line-height: 59px;
+                text-align: center;
+                border-top: 1px solid #E1E2E6;
+                >div{
+                    width: 50%;
+                    float: left;
+                    font-size:17px;
+                    color: #242833;
+                }
+                >.sure-cancel{
+                    border-right: 1px solid #E1E2E6;
+                    color:#8D9099;
+                    }
+                }
+            }
+    }
+    // 体重样式
+    #sureWeight{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+            >.weight-box{
+            width: 290px;
+            height: 220px;
+            position: absolute;
+            top: calc((100vh - 220px)/2);
+            left: calc((100vw - 290px)/2);
+            background-color: #fff;
+            border-radius: 15px;
+            >p{
+                font-weight:bold;
+                height: 49px;
+                line-height: 48px;
+                font-size: 17px;
+                color: #242833;
+                text-align: center;
+                border-bottom: 1px solid #E1E2E6;
+            }
+            >.weight-data{
+                width:290px;
+               display: flex;
+                justify-content: center;
+                height:111px;
+                
+                >input{
+                    text-align: center;
+                    line-height:1;
+                    color:#242833;
+                    font-size:20px;
+                    width:100px;
+                    height:50px;
+                    margin-top:22px;
+                    border-bottom: 1px solid #E1E2E6;
+                }
+                >span{
+                    color:#242833;
+                    font-size:14px;
+                    display: inline-block;
+                    margin-top:40px;
+                }
+            }
+                >.btn-box{
+                height: 60px;
+                line-height: 59px;
+                text-align: center;
+                border-top: 1px solid #E1E2E6;
+                >div{
+                    width: 50%;
+                    float: left;
+                    font-size:17px;
+                    color: #242833;
+                }
+                >.weight-sure-cancel{
+                    border-right: 1px solid #E1E2E6;
+                    color:#8D9099;
+                    }
+                }
+            }
+    }
+    // 血压
+    #sureBloodPressure{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+            >.Blood-pressure-box{
+            width: 290px;
+            position: absolute;
+            top: calc((100vh - 300px)/2);
+            left: calc((100vw - 290px)/2);
+            background-color: #fff;
+            border-radius: 15px;
+            >p{
+                font-weight:bold;
+                height: 49px;
+                line-height: 48px;
+                font-size: 17px;
+                color: #242833;
+                text-align: center;
+                border-bottom: 1px solid #E1E2E6;
+            }
+            >.Blood-pressure-data{
+                width:290px;
+               display: flex;
+                justify-content: center;
+                height:70px;
+                >span:first-child{
+                    font-size:14px;
+                    color:#5E6066;
+                    margin:40px 6.5px 0 0;
+                }
+                >input{
+                    text-align: center;
+                    line-height:1;
+                    color:#242833;
+                    font-size:20px;
+                    width:100px;
+                    height:50px;
+                    margin-top:22px;
+                    border-bottom: 1px solid #E1E2E6;
+                }
+                >span:last-child{
+                    color:#242833;
+                    font-size:14px;
+                    display: inline-block;
+                    margin-top:40px;
+                }
+            }
+            >.data-bottom{
+                margin-bottom:40px;
+            }
+                >.btn-box{
+                height: 60px;
+                line-height: 59px;
+                text-align: center;
+                border-top: 1px solid #E1E2E6;
+                >div{
+                    width: 50%;
+                    float: left;
+                    font-size:17px;
+                    color: #242833;
+                }
+                >.Blood-pressure-cancel{
+                    border-right: 1px solid #E1E2E6;
+                    color:#8D9099;
+                    }
+                }
+            }
+    }
+}

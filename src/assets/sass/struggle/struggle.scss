@@ -1,0 +1,59 @@
+ #struggleHome{
+     #wordCloud{
+        width: 100%;
+        border-top: 58px solid #f6f6f6;
+        border-bottom:0;
+        height: 433px;
+        position: relative;
+        overflow: hidden;
+        >.white{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 0 10px 10px 0;
+            background-color: #fff;
+            height: calc(100% - 1px);
+            z-index: 10;
+            color: #2D3748;
+            >.note{
+                color: #8D9099;
+            }
+        }
+    }
+    >.icon{
+        >ul{
+            >li{
+                &.active{
+                   color:#FF5656;
+                    border: 1px solid #FF5656;
+                }
+              
+            }
+        }
+    }
+    >.struggleText{
+        width:100%;
+        padding:10px;
+        background-color:#f6f6f6;
+        >div{
+            height:85px;
+            background:rgba(225,226,230,1);
+            border-radius:5px;
+            background-color: #E1E2E6;
+            >p{
+                color:#5E6066;
+                font-size:12px;
+                text-align: center;
+               line-height: 17px;
+            }
+            >p:first-child{
+                padding:16px 0 9px 0;
+                color:#242833;
+                font-size:18px;
+                font-weight:500;
+            }
+        }
+    }
+ }
+ 

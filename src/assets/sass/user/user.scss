@@ -1,0 +1,109 @@
+#userContent{
+    background-color:#f6f6f6;
+    width:100vw;
+    height: 100vh;
+    
+    >.user-top{
+    padding:56px 12px 26px 12px;
+    width:100%;
+    height:144px;
+    margin-bottom:10px;
+    background-color:#ffffff;
+    overflow: hidden;
+    >.head-pic{
+        display: block;
+        width:65px;
+        height:65px ;
+        border-radius:50%;
+        margin:5px 15px 0 0;
+    }
+    >.user-info{
+        >.user-name{
+            color:#242833;
+            font-size:20px;
+            margin:12px 0 10px 0;
+        }
+        >.user-text{
+            color:#8D9099;
+            font-size:13px;
+        }
+    }
+    >.list-arrow{
+        display: block;
+        width:12px;
+        height:12px;
+        margin-top:26px;
+    }
+    }
+    >.user-list{
+        width:100%;
+        overflow: hidden;
+        >li{
+            position: relative;
+            padding:0 12px 0 10px;
+            width:100%;
+            height:50px;
+            background-color:#ffffff;
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:45px;
+                bottom:0;
+                width:90%;
+                height:1px;
+                background:rgba(225,226,230,1);
+            }
+            >.list-icon{
+                display:block;
+                width:19px;
+                height:19px;
+                margin:17px 14px 0 0 ;
+            }
+            >.icon-top{
+                margin-top:19px;
+            }
+            >.icon-one{
+                width:19px;
+                height:17px;
+            }
+            >.icon-two{
+                width:18px;
+                height:18px;
+            }
+            >.icon-three{
+                width:16px;
+                height:18px;
+            }
+            >p{
+                color:#242833;
+                font-size:14px;
+                line-height: 50px;
+            }
+            >.list-arrow{
+                display:block;
+               width:12px;
+               height:12px;
+              margin-top:20px;
+            }
+        }
+        >.list-line{
+            margin-bottom: 10px;
+            
+        }
+        >.list-last{
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:45px;
+                bottom:0;
+                width:90%;
+                height:1px;
+                background:#ffffff;;
+            }
+        }
+    }
+}

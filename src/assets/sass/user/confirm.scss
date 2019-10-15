@@ -1,0 +1,53 @@
+#confirm{
+    width:100vw;
+    height:100vh;
+    background-color:#ffffff;
+    >.content{
+        width:100%;
+        padding-top:48px;
+        >.tishis{
+            >img{
+                display: block;
+                margin:0 auto;
+                margin-top:50px;
+                width:108px;
+                height:100px;
+            }
+            >P{
+                text-align:center;
+                color:#5E6066;
+                font-size: 17px;
+                margin-top:25px;
+            }
+        }
+       
+        >.btn{
+            width:100%;
+            margin-top:92px;
+            >.continue-btn{
+                font-size:15px;
+                color:#FFFFFF;
+                text-align: center;
+                width:250px;
+                height:40px;
+                line-height: 40px;
+                background:rgba(255,86,86,1);
+                border-radius:5px;
+                margin:0 auto;
+            }
+            >.beturn-btn{
+                font-size:15px;
+                color:#FF5656;
+                text-align: center;
+                width:250px;
+                height:40px;
+                line-height: 40px;
+                background:#ffffff;
+                border:1px solid #FF5656;
+                border-radius:5px;
+                margin:0 auto;
+                margin-top:21px;
+            }
+        }
+    }
+}

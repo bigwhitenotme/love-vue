@@ -1,0 +1,150 @@
+#addFeelNote{
+    width:100vw;
+    height:100vh;
+    padding:22px  15px 0 15px;
+    background-color:#f6f6f6;
+    overflow-y: scroll;
+    background-image:url("../../assets/img/feel_note_bg.png");
+    >.top-text{
+        height:80px;
+        margin-top:48px;
+        position: relative;
+        &:after{
+            position: absolute;
+            display: block;
+            content:'';
+            clear: both;
+            height:1px;
+            left:-15px;
+            right:-15px;
+            bottom:10px;
+            background-color:#e1e2e6;
+        }
+        >.top-conten{
+            height:20px;
+            &{
+                display: block;
+                content:"";
+                clear: both;
+            }
+            >.top-time{
+                color: #b2b6c2;
+                font-size:12px;
+            }
+            >.top-icon>span{
+                color:#b2b6c2;
+                display: inline-block;
+            }
+            >.top-icon{
+               >img{
+                   display: block;
+                   float: left;
+                   width:18px;
+                   height:18px;
+               }
+                >img:first-child{
+                    margin-right:17px;
+                }
+                >img:last-child{
+                    margin-left:17px;
+                }
+            }
+        }
+        >.top-input-text{
+            width:100%;
+            height:40px;
+            >input{
+                font-size:18px;
+                width:100%;
+                height:40px;
+                text-align: left;
+                &::placeholder{
+                    color:#8D9099;
+                    height:50px;
+                    line-height:29px;
+                }
+            }
+            input::-webkit-input-placeholder{
+                color: #b2b6c2;
+                font-size: 14px;
+            }
+            input:-moz-placeholder{
+                color: #b2b6c2;
+                font-size: 14px;
+            } 
+            input::-moz-placeholder{
+                color: #b2b6c2;
+                font-size: 14px;
+            } 
+            input:-ms-input-placeholder{
+                color: #b2b6c2;
+                font-size: 14px;
+            } 
+            
+        }
+    }
+    >.add-text{
+        margin-bottom:15px;
+        >.input-text{
+            width:100%;
+            font-size:14px;
+            background-color: transparent;
+            .van-cell{
+                padding: 0;
+                background-color: transparent;
+            }
+        }
+    }
+    
+    >.add-pic{
+        width:100%;
+        position: relative;
+        overflow: hidden;
+        >img{
+            display: block;
+            width:130px;
+            height:110px;
+            border-radius:5px;
+            float: left;
+            margin: 0 5px 5px 0;
+             } 
+         }
+        
+    >.icon-item{
+        width:100%;
+        height:35px;
+        line-height: 35px;
+        position: fixed;
+        left:0;
+        bottom:0;
+        display: flex;
+        background-color: #ffffff;
+        justify-content:space-around;
+        >img{
+            width:25px;
+            height:25px;
+            margin-top:5px;
+        }
+        >div{
+            width:25px;
+            height:25px;
+            margin-top:5px;
+            position: relative;
+            >img{
+                width:25px;
+                height:25px;
+                display: block;
+            }
+            >input{
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                width: 25px;
+                height: 25px;
+                opacity: 0;
+            }
+        }
+    }
+}

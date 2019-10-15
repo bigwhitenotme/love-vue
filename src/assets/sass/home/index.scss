@@ -1,0 +1,210 @@
+#home{
+    background-color: #f6f6f6;
+    >.list{
+        height: 228px;
+        display: flex;
+        align-items: center;
+        >.none{
+            width: 100%;
+            >div{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                line-height: 27px;
+                color: #8D9099;
+                font-size: 14px;
+                margin-bottom: 7px;
+                >.box{
+                    padding: 11px 0 11px;
+                    display: flex;
+                    justify-content: center;
+                    width: 40px;
+                    >span{
+                        display: block;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        margin: 0 2.5px;
+                        background-color: #242833;
+                    }
+                    
+                }
+            }
+        }
+        >ul{
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            >li{
+                width: 88px;
+                height: 75px;
+                float: left;
+                margin: 0 2px;
+                margin-bottom: 15px;
+                position: relative;
+                &:nth-child(4n){
+                    margin-right: 5.5px;
+                }
+                &:nth-child(4n+1){
+                    margin-left: 5.5px;
+                }
+                >img{
+                    width: 36px;
+                    height: 36px;
+                    margin: 16px auto 8px;
+                    display: block;
+                }
+                >p{
+                    color: #8D9099;
+                    font-size: 11px;
+                    line-height: 1;
+                    text-align: center;
+                }
+                >span{
+                    display: block;
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    right: 7.5px;
+                    top: 7.5px;
+                    background-size: 100% 100%;
+                    &.reduce{
+                        background-image: url(../../assets/img/home_less.png);
+                    }
+                    &.add{
+                        background-image: url(../../assets/img/home_add.png);
+                    };
+                }
+            }
+        }
+    }
+    >.icon{
+        >a{
+            width: 250px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #E1E2E6;
+            display: block;
+            margin: 0 auto;
+            background-color: #fff;
+            color: #242833;
+            font-size: 15px;
+            line-height: 38px;
+            text-align: center;
+        }
+    }
+    >.choose{
+        padding: 10px 0 10px;
+        >.box{
+            padding: 15px 0 25px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: 100px;
+            >span{
+                display: block;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                margin: 0 2.5px;
+                background-color: #242833;
+            }
+            >p{
+                color:#8D9099;
+                font-size:17px;
+                
+            }
+            >.active{
+                color:#FF5656;
+            }
+        }
+        >ul{
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            >li{
+                width: 88px;
+                height: 75px;
+                background-color: #fff; 
+                float: left;
+                margin: 0 2px;
+                margin-bottom: 15px;
+                position: relative;
+                &:nth-child(4n){
+                    margin-right: 5.5px;
+                }
+                &:nth-child(4n+1){
+                    margin-left: 5.5px;
+                }
+                &:nth-child(2){
+                    >img{
+                        width: 21px;
+                        height: 21px;
+                        display: block;
+                    }
+                }
+                &:nth-child(3){
+                    >img{
+                        width: 21px;
+                        height: 21px;
+                        display: block;
+                    }
+                }
+                &:nth-child(4){
+                    >img{
+                        width: 21px;
+                        height: 21px;
+                        display: block;
+                    }
+                }
+                &:nth-child(6){
+                    >img{
+                        width: 21px;
+                        height: 21px;
+                        display: block;
+                    }
+                }
+                &:nth-child(7){
+                    >img{
+                        width: 21px;
+                        height: 26px;
+                        margin: 18px auto 10px;
+                        display: block;
+                    }
+                }
+                >img{
+                    width: 21px;
+                    height: 20px;
+                    margin: 24px auto 10px;
+                    display: block;
+                }
+                >p{
+                    color: #8D9099;
+                    font-size: 11px;
+                    line-height: 1;
+                    text-align: center;
+                }
+                >span{
+                    display: block;
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    right: 7.5px;
+                    top: 7.5px;
+                    background-size: 100% 100%;
+                   
+                    &.reduce{
+                        background-image: url(../../assets/img/home_less.png);
+                    }
+                    &.add{
+                        background-image: url(../../assets/img/home_add.png);
+                    }
+                }
+            }
+        }
+    }
+}

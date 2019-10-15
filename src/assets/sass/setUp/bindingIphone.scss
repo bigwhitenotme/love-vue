@@ -1,0 +1,174 @@
+#bindingIphone{
+    width:100vw;
+    height:100vh;
+    background-color: #f6f6f6;
+    >.input-content{
+        padding-top:75px;
+        background-color:#ffffff;
+        >.binding-shield{
+            display: flex;
+            justify-content: center;
+            margin-bottom:130px;
+            >img{
+                display: block;
+                width:50px;
+                height:50px;
+                margin-right:12px;
+            }
+            >p{
+                color:#FF5656;
+                font-size:14px;
+                width:115px;
+            }
+        }
+        >.input-list{
+           
+            >div{
+                position: relative;
+                padding:0 12px;
+                position: relative;
+                width:100%;
+                height:50px;
+               overflow: hidden;
+                background-color: #ffffff;
+                &:after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                    position: absolute;
+                    left:12px;
+                    bottom:0;
+                    width:100%;
+                    height:1px;
+                    background:rgba(225,226,230,1);
+                }
+                >.iphoneNumber{
+                    font-size:14px;
+                    font-weight:500;
+                    width:40px;
+                    float: left;
+                    margin:14px;
+
+                }
+                >input{
+                    font-size:14px;
+                    width:250px;
+                    height:49px;
+                    line-height: 1;
+                    float: left;
+                    &::placeholder{
+                        height:49px;
+                        line-height: 49px;
+                    }
+                }
+                .close{
+                    display: block;
+                    width:18px;
+                    height:18px;
+                    position: absolute;
+                    right:12px;
+                    top:16px;
+                }
+            }
+            >.binding-addres{
+                position: relative;
+                padding:0 12px 0 12px;
+                width:100%;
+                height:50px;
+                background-color:#ffffff;
+                &:after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                    position: absolute;
+                    left:12px;
+                    bottom:0;
+                    width:100%;
+                    height:1px;
+                    background:rgba(225,226,230,1);
+                }
+               
+                >span{
+                    color:#242833;
+                    font-size:14px;
+                    line-height: 50px;
+                }
+                >div{
+                    overflow: hidden;
+                    >span{
+                        display: inline-block;
+                        margin-right:10px;
+                        line-height: 50px;
+                        font-size:14px;
+                        color:#8D9099;
+                    }
+                    >.list-arrow{
+                        display:block;
+                       width:12px;
+                       height:12px;
+                      margin-top:21px;
+                    }
+                }
+
+            }
+            >.list-code{
+                >input{
+                    width:220px;
+                }
+                >.forget-code{
+
+                    text-align: center;
+                    font-size:14px;
+                    color:#242833;
+                    width:88px;
+                    height:30px;
+                    line-height: 30px;
+                    background-color:#F0F1F5;
+                    border-radius:5px;
+                    margin-top:10px
+                }
+                >.active{
+                    background-color:#FF5656;
+                    color:#ffffff;
+                }
+                .close{
+                    display: block;
+                    width:18px;
+                    height:18px;
+                    position: absolute;
+                    right:110px;
+                    top:16px;
+                }
+            }
+            >.list-last{
+                &:after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                    position: absolute;
+                    left:12px;
+                    bottom:0;
+                    width:100%;
+                    height:1px;
+                    background:#ffffff;
+                }
+            }
+        }
+        
+       
+    }
+    >.change-btn{
+        color:#ffffff;
+        font-size:15px;
+        text-align: center;
+        width:250px;
+        height:40px;
+        line-height: 40px;
+        background-color: #D8D8D8;
+        border-radius:5px;
+        margin:90px auto;
+        &.active{
+            background-color:#FF5656;
+        }
+    }
+}

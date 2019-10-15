@@ -1,0 +1,57 @@
+#problem{
+    width:100vw;  
+    height: 100vh;
+    
+    background-color:#f6f6f6;
+    >.problem-list{
+        width:100%;
+        overflow: hidden;
+        margin-top:48px;
+        >li{
+            position: relative;
+            padding:0 12px 0 12px;
+            width:100%;
+            height:50px;
+            background-color:#ffffff;
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:12px;
+                bottom:0;
+                width:100%;
+                height:1px;
+                background:rgba(225,226,230,1);
+            }
+            >p{
+                float: left;
+                color:#242833;
+                font-size:14px;
+                line-height: 50px;
+            }
+                >.list-arrow{
+                    display:block;
+                   width:12px;
+                   height:12px;
+                  margin-top:21px;
+                }
+        }
+       >li:first-child{
+           margin-top:10px;
+       }
+        >li:last-child{
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
+                position: absolute;
+                left:12px;
+                bottom:0;
+                width:100%;
+                height:1px;
+                background:#ffffff;;
+            }
+        }
+}
+}
